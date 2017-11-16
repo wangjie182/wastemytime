@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>轮播页面</title>
+    <style type="text/css">
+        .shouye_lunbotu1 {
+            -webkit-animation: lunbo 10s infinite;
+            width: 400%;
+        }
+        
+        .shouye_lunbotu1 {
+            -webkit-transform: translate(0%);
+        }
+        
+        .shouye_lunbotu1>img {
+            width: 24.9%;
+        }
+        
+        @-webkit-keyframes lunbo {
+            0% {
+                -webkit-transform: translatex(0%);
+            }
+            30% {
+                -webkit-transform: translatex(0%);
+            }
+            40% {
+                -webkit-transform: translatex(-24.9%);
+            }
+            60% {
+                -webkit-transform: translatex(-24.9%);
+            }
+            70% {
+                -webkit-transform: translatex(-49.8%);
+            }
+            80% {
+                -webkit-transform: translatex(-49.8%);
+            }
+            100% {
+                -webkit-transform: translatex(-74.7%);
+            }
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+</head>
+
+<body>
+    <div id="shouye_lunbotu">
+        <div class="shouye_lunbotu1">
+            <img src="1.jpg" class="shouye_lunbotu3">
+            <img src="2.jpg" class="shouye_lunbotu4">
+            <img src="3.jpg" class="shouye_lunbotu5">
+            <img src="4.jpg" class="shouye_lunbotu6">
+        </div>
+    </div>
+</body>

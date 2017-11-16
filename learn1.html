@@ -5,44 +5,62 @@
     <meta charset="UTF-8">
     <title>轮播页面</title>
     <style type="text/css">
-        .shouye_lunbotu1 {
-            -webkit-animation: lunbo 10s infinite;
-            width: 400%;
+        img{
+            vertical-align:bottom;
+        }
+        #shouye_lunbotu{
+            width:100%;
+            position:relative;
+            overflow:hidden;
+        }
+        .shouye_lunbotu1{
+            -webkit-animation:lunbo 5s infinite;	
+            width:400%;
+        }
+        .shouye_lunbotu1{
+            -webkit-transform:translate(0%);
+        }
+        .shouye_lunbotu1>img{
+            width:7.9%;
+            padding-left:2.1%;
+        }
+        @-webkit-keyframes lunbo{
+            0%{
+            -webkit-transform:translatex(40%);
+            }
+            10%{
+            -webkit-transform:translatex(0%);
+            }
+            20%{
+            -webkit-transform:translatex(-10%);
+            }
+            30%{
+            -webkit-transform:translatex(-20%);
+            }
+            40%{
+            -webkit-transform:translatex(-30%);
+            }
+            50%{
+            -webkit-transform:translatex(-30%);
+            }
+            60%{
+            -webkit-transform:translatex(-40%);
+            }
+            70%{
+            -webkit-transform:translatex(-50%);
+            }
+            80%{
+            -webkit-transform:translatex(-60%);
+            }
+            90%{
+            -webkit-transform:translatex(-70%);
+            }
+            100%{
+            -webkit-transform:translatex(-80%);
+            }
         }
         
-        .shouye_lunbotu1 {
-            -webkit-transform: translate(0%);
-        }
-        
-        .shouye_lunbotu1>img {
-            width: 24.9%;
-        }
-        
-        @-webkit-keyframes lunbo {
-            0% {
-                -webkit-transform: translatex(0%);
-            }
-            30% {
-                -webkit-transform: translatex(0%);
-            }
-            40% {
-                -webkit-transform: translatex(-24.9%);
-            }
-            60% {
-                -webkit-transform: translatex(-24.9%);
-            }
-            70% {
-                -webkit-transform: translatex(-49.8%);
-            }
-            80% {
-                -webkit-transform: translatex(-49.8%);
-            }
-            100% {
-                -webkit-transform: translatex(-74.7%);
-            }
-        }
     </style>
-    <!-- <link rel="stylesheet" href="../css/index.css"> -->
 </head>
 
 <body>
@@ -52,6 +70,11 @@
             <img src="2.jpg" class="shouye_lunbotu4">
             <img src="3.jpg" class="shouye_lunbotu5">
             <img src="4.jpg" class="shouye_lunbotu6">
+            <img src="1.jpg" class="shouye_lunbotu7">
+            <img src="2.jpg" class="shouye_lunbotu8">
+            <img src="3.jpg" class="shouye_lunbotu9">
+            <img src="4.jpg" class="shouye_lunbotu10">
+
         </div>
     </div>
 </body>

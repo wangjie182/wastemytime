@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>轮播页面</title>
+    <style type="text/css">
+        img{
+            vertical-align:bottom;
+        }
+        #shouye_lunbotu{
+            width:100%;
+            position:relative;
+            overflow:hidden;
+        }
+        .shouye_lunbotu1{
+            -webkit-animation:lunbo 15s infinite;	
+            width:400%;
+        }
+        .shouye_lunbotu1{
+            -webkit-transform:translate(0%);
+        }
+        .shouye_lunbotu1>img{
+            width:7.9%;
+            padding-left:2.1%;
+        }
+        @-webkit-keyframes lunbo{
+            0%{
+            -webkit-transform:translatex(40%);
+            }
+            10%{
+            -webkit-transform:translatex(0%);
+            }
+            20%{
+            -webkit-transform:translatex(-10%);
+            }
+            30%{
+            -webkit-transform:translatex(-20%);
+            }
+            40%{
+            -webkit-transform:translatex(-30%);
+            }
+            50%{
+            -webkit-transform:translatex(-30%);
+            }
+            60%{
+            -webkit-transform:translatex(-40%);
+            }
+            70%{
+            -webkit-transform:translatex(-50%);
+            }
+            80%{
+            -webkit-transform:translatex(-60%);
+            }
+            90%{
+            -webkit-transform:translatex(-70%);
+            }
+            100%{
+            -webkit-transform:translatex(-80%);
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="shouye_lunbotu">
+        <div class="shouye_lunbotu1">
+            <img src="1.jpg" class="shouye_lunbotu3">
+            <img src="2.jpg" class="shouye_lunbotu4">
+            <img src="3.jpg" class="shouye_lunbotu5">
+            <img src="4.jpg" class="shouye_lunbotu6">
+            <img src="1.jpg" class="shouye_lunbotu7">
+            <img src="2.jpg" class="shouye_lunbotu8">
+            <img src="3.jpg" class="shouye_lunbotu9">
+            <img src="4.jpg" class="shouye_lunbotu10">
+
+        </div>
+    </div>
+</body>
